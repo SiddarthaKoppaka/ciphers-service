@@ -1,10 +1,10 @@
-FROM python
+FROM python:3.11.6-alpine
 
 WORKDIR /home/application
 
-ENV PYTHONDONTWRITETECODE = 1
+ENV PYTHONDONTWRITEBYTECODE=1
 
-ENV PYTHONBUFFERED = 1
+ENV PYTHONUNBUFFERED=1
 
 RUN pip install --upgrade pip
 
