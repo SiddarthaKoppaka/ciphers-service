@@ -17,13 +17,12 @@ jobs:
             python -m pip install --upgrade pip
             pip install -r requirements.txt
         
-        - name: Unit Testing
+        - name: Run Tests
           run: |
             cd ciphers_project
-            python3 manage.py test
+            python manage.py test
         - name: Build and push the image
           run: |
             docker login --username siddarthakoppaka --password ${{secrets.ACCESS_TOKEN}} ghcr.io
             docker build -t ghcr.io/siddarthakoppaka/ciphers-service:latest --file Dockerfile .
             docker push ghcr.io/siddarthakoppaka/ciphers-service:latest
-          
