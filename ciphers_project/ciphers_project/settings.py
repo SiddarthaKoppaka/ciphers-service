@@ -126,5 +126,5 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CORS_ALLOWED_ORIGINS = ["https://siddarthakoppaka.github.io/numbers-app/",
+CORS_ALLOWED_ORIGINS = ["https://siddarthakoppaka.github.io/",
                         "http://localhost:3000", "http://localhost:8000", "http://localhost:8001", "https://ciphers-service-siddarthakoppaka.onrender.com"]
