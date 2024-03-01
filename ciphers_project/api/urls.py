@@ -4,5 +4,5 @@ from .views import encode
 
 urlpatterns = [
     path('', greetings),
-    path('caesar/<str:plaintext>/<int:shift>', encode)
+    path('caesar/<str:plaintext>/<int:shift>', encode),
 ]
