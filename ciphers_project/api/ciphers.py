@@ -1,7 +1,11 @@
+
+
 def caesar_encode(plain_text, shift):
-    cipher_text = ""
+    cipher_text = ''
     for c in plain_text:
-        c_encoded = ord(c) + shift
-        c_encoded = chr(c_encoded)
-        cipher_text += c_encoded
+        caesar_encode = ord(c) + shift
+        caesar_encode = chr(caesar_encode)
+        cipher_text += caesar_encode
     return cipher_text
+
+    
