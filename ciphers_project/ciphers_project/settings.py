@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-!4!y-%rqn^@7q9tmor^rv1r*4^$ly8)+uow!qlqv4nmib%q7(j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ciphers-service-jeetkatariya.onrender.com']
+ALLOWED_HOSTS = ['ciphers-service-siddarthakoppaka.onrender.com']
 
 
 # Application definition
@@ -126,5 +126,5 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CORS_ALLOWED_ORIGINS = ["https://jeetkatariya.github.io",
-                        "http://localhost:3000", "http://localhost:8000", "http://localhost:8001", "https://ciphers-service-jeetkatariya.onrender.com"]
+CORS_ALLOWED_ORIGINS = ["https://siddarthakoppak.github.io",
+                        "http://localhost:3000", "http://localhost:8000", "http://localhost:8001", "https://ciphers-service-siddarthakoppaka.onrender.com"]
